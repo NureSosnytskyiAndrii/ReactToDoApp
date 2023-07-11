@@ -1,0 +1,15 @@
+:root {
+    --body_background: white;
+    --body_color: black;
+    --form_background: #255f65;
+}
+
+[data-theme="dark"] {
+    --body_background: #282c34;
+    --body_color: white;
+    --form_background: #1A1A40
+}
+
+* {
+    transition: all 0.3s ease-in-out;
+}
